@@ -1,1 +1,16 @@
+@font-face {
+  font-family: "FleurDeLeah";
+  src: url(../src/assets/fonts/fleurDeLeah/FleurDeLeah-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "SpaceGrotesk";
+  src: url(../src/assets/fonts/spaceGrotesk/SpaceGrotesk-Regular.ttf) format("truetype");
+}
+
 @import "tailwindcss";
+
+@theme{
+  --font-fleur: 'FleurDeLeah', "sans-serif";
+  --font-space: 'SpaceGrotesk', "sans-serif";
+}
